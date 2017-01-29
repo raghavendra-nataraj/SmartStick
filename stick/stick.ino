@@ -63,7 +63,7 @@ void loop() {
   }
   mySwitch.send(num,32);
   Serial.print(num);
-  delay(100);
+  delay(1000);
 }
 
 long microsecondsToInches(long microseconds)
